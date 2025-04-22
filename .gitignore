@@ -21,3 +21,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Firebase local/emulator
+.firebase/
+firebase-debug.log
+
+# IDE/editor
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+
+# Logs
+*.log
+
+# Service account keys (if ever used)
+serviceAccountKey.json

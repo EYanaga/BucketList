@@ -1,4 +1,60 @@
-# Getting Started with Create React App
+# 1980s Bucket List App
+
+A retro-inspired bucket list web app with a bold 1980s neon/pixel UI. Built with React and Firebase (Firestore + Hosting).
+
+## Features
+- Add new bucket list items
+- Mark items as accomplished or move them back to "To Do"
+- Two lists: **TO DO** and **ACCOMPLISHED**
+- Real-time sync via Firebase Firestore
+- Deployed with Firebase Hosting
+- 1980s look: neon colors, pixel font, dark backgrounds, retro buttons
+
+---
+
+## Screenshots
+![screenshot](screenshot.png)
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16+ recommended)
+- Firebase CLI (`npm install -g firebase-tools`)
+
+### 1. Install dependencies
+```bash
+npm install
+```
+
+### 2. Firebase Setup
+- The app expects a valid Firestore database and Hosting config in `src/firebase.js` (already set up for this project).
+- If you need to change Firebase credentials, edit `src/firebase.js`.
+
+### 3. Run Locally
+```bash
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### 4. Deploy to Firebase Hosting
+```bash
+npm run build
+firebase deploy
+```
+
+---
+
+## Customization
+- To change the 1980s look, edit `src/App.css`.
+- To add new features, modify `src/App.js`.
+
+---
+
+## License
+MIT
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
