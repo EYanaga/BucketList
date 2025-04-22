@@ -1,6 +1,6 @@
-# 1980s Bucket List App
+# Mountain Bucket List App
 
-A retro-inspired bucket list web app with a bold 1980s neon/pixel UI. Built with React and Firebase (Firestore + Hosting).
+A visually engaging, mountain-themed bucket list web app. Built with React and Firebase (Firestore + Hosting). Features a clean, outdoors-inspired design with mountain motifs and a modern, friendly interface.
 
 ## Features
 - Add new bucket list items
@@ -8,7 +8,7 @@ A retro-inspired bucket list web app with a bold 1980s neon/pixel UI. Built with
 - Two lists: **TO DO** and **ACCOMPLISHED**
 - Real-time sync via Firebase Firestore
 - Deployed with Firebase Hosting
-- 1980s look: neon colors, pixel font, dark backgrounds, retro buttons
+- Mountain look: soft gradients, nature-inspired colors, and mountain graphics
 
 ---
 
